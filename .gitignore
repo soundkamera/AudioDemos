@@ -2,15 +2,16 @@
 #
 # Get latest from https://github.com/github/gitignore/blob/master/Unity.gitignore
 #
-[Ll]ibrary/
-[Tt]emp/
-[Oo]bj/
-[Bb]uild/
-[Bb]uilds/
-[Ll]ogs/
-[Mm]emoryCaptures/
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Mm]emoryCaptures/
+/[Uu]ser[Ss]ettings/
 
-# Asset meta data should only be ignored when the corresponding asset is also ignored
+# Never ignore Asset meta data
 !/[Aa]ssets/**/*.meta
 
 # Uncomment this line if you wish to ignore the asset store tools plugin
@@ -57,7 +58,5 @@ sysinfo.txt
 
 # Crashlytics generated file
 crashlytics-build.properties
-
-Roll-a-Ball/Library/ArtifactDB
-Roll-a-Ball/Library/ArtifactDB
-Roll-a-Ball/Library/ArtifactDB
+ZOC_2020/Assets/Imported Assets/Required/Terrain Textures/FourPlayer/layer_Painterly Terrain Textures -  Earthly Forest SoilGrass_01_Normal(15.000,15.000)(0.000,0.000)(0.000,0.000,0.000),0.000,0.000.terrainlayer
+ZOC_2020/Assets/Imported Assets/Required/Terrain Textures/FourPlayer/layer_Painterly Terrain Textures -  Earthly Forest SoilGrass_01_Normal(15.000,15.000)(0.000,0.000)(0.000,0.000,0.000),0.000,0.000.terrainlayer.meta
