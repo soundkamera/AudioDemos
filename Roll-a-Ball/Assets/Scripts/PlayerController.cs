@@ -15,6 +15,8 @@ public class PlayerController : MonoBehaviour
     private float movementX;
     private float movementY;
 
+    public AudioSource pickupSound;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -57,6 +59,9 @@ public class PlayerController : MonoBehaviour
             count = count + 1;
 
             SetCountText();
+
+            pickupSound.Play();
+
         }
     }
 }
